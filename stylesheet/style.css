@@ -60,7 +60,7 @@ a:focus {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 100%;
     z-index: 999;
     background:  rgb(39, 49, 90);
     color: #fff;
@@ -166,7 +166,7 @@ a.article:hover {
     MEDIAQUERIES
 ----------------------------------------------------- */
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
     #sidebar {
         margin-left: -250px;
     }
